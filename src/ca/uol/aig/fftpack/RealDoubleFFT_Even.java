@@ -20,7 +20,7 @@ public class RealDoubleFFT_Even extends RealDoubleFFT_Mixed
   * The sequences with the same size can share a wavenumber table. The prime
   * factorization of <em>n</em> together with a tabulation of the trigonometric functions
   * are computed and stored.
-  *
+  * 
   * @param  n  the size of a real data sequence. When (<em>n</em>-1) is a multiplication of small
   * numbers (4, 2, 3, 5), this FFT transform is very efficient.
 */
